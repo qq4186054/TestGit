@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 public class BowlingGame {
-	public static int getBowlingScore(){
+	public int getBowlingScore(){
 		Scanner sc =new Scanner(System.in);
 		String str = sc.nextLine();
 		int[] scores = new int[12];
