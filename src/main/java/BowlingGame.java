@@ -1,9 +1,8 @@
 package main.java;
 
-import java.util.Scanner;
 
 public class BowlingGame {
-	public static int getBowlingScore(String str){
+	public int getBowlingScore(String str){
 		int[] scores = new int[12];
 		int[] temp=new int[str.length()*2];
 		int sum =0;
