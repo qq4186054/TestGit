@@ -3,9 +3,7 @@ package main;
 import java.util.Scanner;
 
 public class BowlingGame {
-	public static int getBowlingScore(){
-		Scanner sc =new Scanner(System.in);
-		String str = sc.nextLine();
+	public static int getBowlingScore(String str){
 		int[] scores = new int[12];
 		int[] temp=new int[str.length()*2];
 		int sum =0;
